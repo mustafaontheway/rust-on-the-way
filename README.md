@@ -1,2 +1,1 @@
-# rust-on-the-way
-Rust (2026 - XXXX)
+Rust for Web3, Game, DS...
