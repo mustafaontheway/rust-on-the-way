@@ -8,7 +8,7 @@ fn main() {
 
     // let full_name = name_1 + " " + &name_2 + " " + last_name; // Error: main.rs(9, 52): consider borrowing here: `&`
 
-    let full_name = name_1 + " " + &name_2 + " " + &last_name; // Error: main.rs(9, 52): consider borrowing here: `&`
+    let full_name = name_1 + " " + &name_2 + " " + &last_name; 
 
     println!("Full name: {full_name}")
 }
