@@ -6,11 +6,11 @@ fn main() {
 
     let unique_members = HashSet::from(members);
 
-    let studets = HashSet::from(["Mustafa Büyükdereli", "Aygül Kızıl"]);
+    let students = HashSet::from(["Mustafa Büyükdereli", "Aygül Kızıl"]);
 
-    println!("{:?}", unique_members.union(&studets));
+    println!("{:?}", unique_members.union(&students));
 
-    println!("{:?}", unique_members.difference(&studets));
+    println!("{:?}", unique_members.difference(&students));
 }
 
 // ["Aygül Kızıl", "Ayhan Bilir", "Kağan Güçlü", "Bengü Burada", "Mustafa Büyükdereli"]
