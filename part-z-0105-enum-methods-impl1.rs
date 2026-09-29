@@ -25,7 +25,7 @@ impl Products {
     fn calculate_profit_or_loss(&self) -> f32 {
         match self {
             Products::GameNario { price, sales_amount } => {
-                price * (*sales_amount as f32) - 300_000.0
+                price * (*sales_amount as f32) - 300_000.0 // (*price) * (*sales_amount as f32)
             }
             Products::GameMounterStrike { price, sales_amount } => {
                 price * (*sales_amount as f32) - 634_000.0
