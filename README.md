@@ -6,6 +6,6 @@
 
 * Games
 
-* Smart Contracts
+* Smart Contracts & FinTech
 
 * Some AI
