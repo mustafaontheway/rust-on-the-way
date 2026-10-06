@@ -18,9 +18,9 @@ fn calculate_profit(sales: u64, cost: u64) -> Result<u64, String> {
 
     else {
         
-        Err(format!("Cost amount (${cost} ₺) exceeds sales amount (${sales} ₺)!"))
+        Err(format!("Cost amount ({cost} ₺) exceeds sales amount ({sales} ₺)!"))
     }
 }
 
 // Sales result 1: Ok(310000)
-// Sales result 2: Err("Cost amount ($440000 ₺) exceeds sales amount ($350000 ₺)!")
+// Sales result 2: Err("Cost amount (440000 ₺) exceeds sales amount (350000 ₺)!")
