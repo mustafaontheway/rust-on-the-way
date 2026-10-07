@@ -5,7 +5,7 @@ fn main() {
 
 trait Managerial {
     
-    fn set_head(&mut self, head_name: String);
+    fn set_head(&mut self, dep: Departments, head_name: String);
 
     fn set_yearly_budget(&mut self, dep: Departments, amount: u64);
 
