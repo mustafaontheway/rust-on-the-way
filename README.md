@@ -4,4 +4,4 @@
 
 * Web3 Smart Contracts & FinTech
 
-* Some AI
+* Game Dev (Not yet...)
