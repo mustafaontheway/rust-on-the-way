@@ -13,7 +13,7 @@ trait Managerial {
 
     fn set_yearly_budget(&mut self, amount: u64);
 
-    fn set_ep_num(&mut self, num_0f_emp: u8);
+    fn set_emp_num(&mut self, num_0f_emp: u8);
 }
 
 #[derive(Debug)]
@@ -57,7 +57,7 @@ impl Managerial for Department {
         self.dep_head = head_name
     }
 
-    fn set_ep_num(&mut self, num_0f_emp: u8) {
+    fn set_emp_num(&mut self, num_0f_emp: u8) {
 
            self.dep_emp_counts += num_0f_emp
     }
