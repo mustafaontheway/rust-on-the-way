@@ -2,7 +2,7 @@
 
 * Rust Language (From Basic to Advanced)
 
-* Web3 Smart Contracts & FinTech
+* Web3 & FinTech & Smart Contracts
 
 * Game Dev
 
