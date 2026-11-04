@@ -4,6 +4,6 @@
 
 * Web3 & FinTech & Smart Contracts
 
-* Game Dev
+* App & Game Dev
 
   
