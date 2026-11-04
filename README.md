@@ -6,4 +6,8 @@
 
 * App & Game Dev
 
+* Backend
+
+* AI & ML & Agents
+
   
