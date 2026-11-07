@@ -7,6 +7,10 @@ fn main() {
     let p = calculate_premium(Ok(0));
 
     println!("{p}");
+
+    let p = calculate_premium(Err("We don't have sales data..."));
+
+     println!("{p}");
 }
 
 fn calculate_premium(sales: Result<u64, &str>) -> f64 {
