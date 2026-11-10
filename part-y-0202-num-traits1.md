@@ -1,0 +1,3 @@
+let's add num traits...
+
+<img width="873" height="447" alt="image" src="https://github.com/user-attachments/assets/0af17ba4-41ad-41a4-b59b-7e8f4ee5db75" />
